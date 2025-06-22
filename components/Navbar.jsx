@@ -10,9 +10,9 @@ export const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <Link href={'/'} className="text-2xl font-bold text-blue-600">MyProject</Link>
           <div className="space-x-4">
-            <Link href="/">
-              <span className="text-gray-700 hover:text-blue-500 cursor-pointer">Home</span>
-            </Link>
+            {/* <Link href="/"> */}
+              {/* <span className="text-gray-700 hover:text-blue-500 cursor-pointer">Home</span> */}
+            {/* </Link> */}
             <Link href="/about">
               <span className="text-gray-700 hover:text-blue-500 cursor-pointer">About</span>
             </Link>
